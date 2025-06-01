@@ -27,7 +27,7 @@ function App() {
   <Particles
   cla
     particleColors={['#FF69B4' /* Hot Pink */, '#FF1493' /* Deep Pink */]}
-    particleCount={200}
+    particleCount={120}
     particleSpread={10}
     speed={0.1}
     particleBaseSize={100}
