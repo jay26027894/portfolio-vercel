@@ -5,8 +5,6 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Profilecard from './components/Profilecard'
-// import Backgroundshapes from './components/Backgroundshapes'
 import Particles from '../components/Particles'
 
 function App() {
@@ -40,10 +38,6 @@ function App() {
       <Navbar />
       {/* Flex container for Profilecard and Hero */}
       <Hero />
-       {/* <div className="flex flex-row items-start justify-center gap-8 mt-8 relative z-10">
-        <Profilecard />
-        
-      </div> */}
       <About />
       <Skills />
       <Projects />
