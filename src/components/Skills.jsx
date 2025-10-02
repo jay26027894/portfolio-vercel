@@ -1,23 +1,48 @@
 import AnimatedList from "./AnimatedList";
 
 const skills = [
-  // Technical Skills
+  // AI & Machine Learning
+  "Generative AI",
+  "Large Language Models (LLMs)",
+  "LLM Fine-Tuning",
+  "AI Model Deployment",
+  "Chatbot Development",
+  "Vector Databases",
+  "Computer Vision",
+  "Prompt Engineering",
+  
+  // Cloud & Infrastructure
+  "Oracle Cloud Infrastructure (OCI)",
+  "OCI AI Services",
+  "OCI Dedicated AI Clusters",
+  
+  // Programming Languages
   "C",
   "C++",
-  "HTML",
-  "CSS",
   "JavaScript",
+  
+  // Frontend Development
+  "HTML5",
+  "CSS3",
   "React.js",
   "Next.js",
+  "Node.js",
+  "Vite",
+  
+  // Styling & Animation
   "Tailwind CSS",
   "Framer Motion",
   "GSAP",
-  "Node.js",
-  "Figma",
+  "Responsive Web Design",
+  
+  // Tools & Technologies
   "Git",
   "GitHub",
   "REST APIs",
-
+  "Figma",
+  "WordPress",
+  "Web Hosting",
+  
   // Soft Skills
   "Problem Solving",
   "Team Collaboration",
@@ -26,6 +51,8 @@ const skills = [
   "Adaptability",
   "Continuous Learning",
   "Critical Thinking",
+  "Event Management",
+  "Organization Skills",
 ];
 
 export default function Skills() {
