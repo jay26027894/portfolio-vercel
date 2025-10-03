@@ -14,32 +14,26 @@ function App() {
   // Define your tech logos
  const techLogos = [
   // Cloud & Infrastructure
-  { node: <SiOracle />, title: "Oracle Cloud Infrastructure (OCI)", href: "https://www.oracle.com/cloud/" },
-  
-  // Programming Languages
-  { node: <SiC />, title: "C", href: "#" },
-  { node: <SiCplusplus />, title: "C++", href: "#" },
-  { node: <SiJavascript />, title: "JavaScript", href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
-  
-  // Frontend Development
-  { node: <SiHtml5 />, title: "HTML5", href: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
-  { node: <SiCss3 />, title: "CSS3", href: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
-  { node: <SiReact />, title: "React.js", href: "https://react.dev" },
-  { node: <SiNextdotjs />, title: "Next.js", href: "https://nextjs.org" },
-  { node: <SiNodedotjs />, title: "Node.js", href: "https://nodejs.org" },
-  { node: <SiVite />, title: "Vite", href: "https://vitejs.dev" },
-  
-  // Styling & Animation
-  { node: <SiTailwindcss />, title: "Tailwind CSS", href: "https://tailwindcss.com" },
-  { node: <TbBrandFramerMotion />, title: "Framer Motion", href: "https://www.framer.com/motion/" },
-  { node: <SiGreensock />, title: "GSAP", href: "https://greensock.com/gsap/" },
-  
-  // Tools & Technologies
-  { node: <SiGit />, title: "Git", href: "https://git-scm.com" },
-  { node: <SiGithub />, title: "GitHub", href: "https://github.com" },
-  { node: <SiFigma />, title: "Figma", href: "https://www.figma.com" },
-  { node: <SiWordpress />, title: "WordPress", href: "https://wordpress.org" },
+ { node: <SiOracle className="text-pink-400" />, title: "Oracle Cloud Infrastructure (OCI)", href: "https://www.oracle.com/cloud/" },
+  { node: <SiC className="text-pink-500" />, title: "C", href: "#" },
+  { node: <SiCplusplus className="text-fuchsia-500" />, title: "C++", href: "#" },
+  { node: <SiJavascript className="text-pink-400" />, title: "JavaScript", href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+  { node: <SiHtml5 className="text-pink-500" />, title: "HTML5", href: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+  { node: <SiCss3 className="text-fuchsia-400" />, title: "CSS3", href: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+  { node: <SiReact className="text-pink-500" />, title: "React.js", href: "https://react.dev" },
+  { node: <SiNextdotjs className="text-pink-400" />, title: "Next.js", href: "https://nextjs.org" },
+  { node: <SiNodedotjs className="text-fuchsia-500" />, title: "Node.js", href: "https://nodejs.org" },
+  { node: <SiVite className="text-pink-500" />, title: "Vite", href: "https://vitejs.dev" },
+  { node: <SiTailwindcss className="text-pink-400" />, title: "Tailwind CSS", href: "https://tailwindcss.com" },
+  { node: <TbBrandFramerMotion className="text-fuchsia-500" />, title: "Framer Motion", href: "https://www.framer.com/motion/" },
+  { node: <SiGreensock className="text-pink-500" />, title: "GSAP", href: "https://greensock.com/gsap/" },
+  { node: <SiGit className="text-pink-400" />, title: "Git", href: "https://git-scm.com" },
+  { node: <SiGithub className="text-fuchsia-400" />, title: "GitHub", href: "https://github.com" },
+  { node: <SiFigma className="text-pink-500" />, title: "Figma", href: "https://www.figma.com" },
+  { node: <SiWordpress className="text-fuchsia-500" />, title: "WordPress", href: "https://wordpress.org" },
 ];
+
+
 
   return (
     <div className='bg-black font-mono'>
@@ -76,7 +70,7 @@ function App() {
       {/* LogoLoop Section */}
       <div className="relative z-20 py-20 bg-black">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-pink-400 mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
             Technologies & Tools
           </h2>
           <div className="bg-black" style={{ height: '120px', position: 'relative', overflow: 'hidden' }}>
