@@ -3,13 +3,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
-const rootElement = document.getElementById('root');
+const container = document.getElementById('root');
+const root = window.reactRoot || (window.reactRoot = createRoot(container));
 
-if (!window.__root) {
-  window.__root = createRoot(rootElement);
-}
-
-window.__root.render(
+root.render(
   <StrictMode>
     <App />
   </StrictMode>,
